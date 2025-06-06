@@ -1,0 +1,10 @@
+:root {
+    --color-bg: #fff8ef;       /* fondo crema claro */
+    --color-block: #f2e3d5;    /* bloque beige */
+    --color-accent: #b8875b;   /* acento ocre-dorado */
+    --color-text: #4b2e2e;     /* texto marrón tierra */
+    --color-detail: #e6d3b3;   /* detalle pastel */
+  
+    --font-main: 'Work Sans', sans-serif;
+    --font-title: 'Quicksand', sans-serif;
+  }

@@ -1,0 +1,48 @@
+@import './styles/variables.css';
+
+
+* {
+  outline: 2px dashed red;
+  background-color: var(--color-bg) !important;
+  color: var(--color-text) !important;
+  font-family: var(--font-main) !important;
+}
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+
+/* Hero styles */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+
+
+.title {
+  font-family: var(--font-title);
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  max-width: 650px;
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+}
+
+.arabic {
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--color-accent);
+}
